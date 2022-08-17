@@ -1,0 +1,228 @@
+/*base*/
+#header {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: gold;
+}
+
+#ao {
+  background: black;
+}
+
+#BodyLog {
+  background-image: url(../img/kerpes.png);
+  background-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  color: gold;
+}
+
+#BodyArg {
+  background-image: url(../img/foto1.jpg);
+  background-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  color: gold;
+}
+
+#BodyReg {
+  background-image: url(../img/Registro.jpg);
+  background-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  color: gold;
+}
+
+#BodyContact {
+  background-image: url(../img/4454552-fantasy-wallpapers.jpg);
+  background-size: 118%;
+  font-family: 'Times New Roman', Times, serif;
+  color: gold;
+}
+
+a {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#a2 {
+  color: gold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+p {
+  color: gold 81, 226, 137;
+}
+
+#ServerStatus {
+  color: #51e289;
+  text-align: center;
+}
+
+#OnlineUser {
+  color: #51e289;
+  text-align: center;
+}
+
+#ElSentimiento {
+  padding-left: 20%;
+  color: #f8b500;
+}
+
+#emailHelp {
+  color: gold;
+}
+
+#TextArea {
+  width: 100%;
+  height: 150px;
+}
+
+#imagen1 {
+  width: 50px;
+  height: 50px;
+  margin: 0%;
+  padding: 0%;
+}
+
+#imagen2 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 10%;
+  left: 70%;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-transition: all ease-out 0,2s;
+  transition: all ease-out 0,2s;
+}
+
+.card-border:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#audioao {
+  width: 250px;
+}
+
+#ServerStatus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60%;
+  left: 25%;
+}
+
+#ImgAo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/*buttons*/
+.btn {
+  min-width: 130px;
+  height: 40px;
+  color: #010000;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(315deg, #f8b500 0%, #fceabb 75%);
+}
+
+.btn {
+  background-position: right center;
+}
+
+.btn {
+  top: 2px;
+}
+
+.btn--1 {
+  left: 25%;
+}
+
+.btn--2 {
+  left: 25%;
+}
+
+.btn--3 {
+  left: 25%;
+}
+
+.btn--4 {
+  left: 25%;
+}
+
+#LastButton {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*ribbons*/
+#separator-ribbon {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+#separator-ribbon .content {
+  width: 150%;
+  height: 150;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+#separator-ribbon2 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+#separator-ribbon2 .content {
+  width: 100%;
+  height: 100;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}

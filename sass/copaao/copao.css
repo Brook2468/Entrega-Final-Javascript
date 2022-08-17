@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+html {
+  font-size: 62%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: 'Noto Sans JP', sans-serif;
+  background: url("../img/fondo.png");
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+nav, .servicios, .presentacion, .footer-content {
+  width: 80%;
+  margin: auto;
+}
+
+.titulo-servicios, .presentacion {
+  margin-bottom: 10%;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+#Paladines{
+  color: cyan;
+  font-size: medium;
+  margin-right: 2cm;
+}
+
+#Druidas{
+  color: rgb(89, 207, 89);
+  font-size: medium;
+  margin-right: 2cm;
+}
+
+#Magos{
+  color: red;
+  font-size: medium;
+  margin-right: 2cm;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.btn, .btn-principal, .btn-secundario {
+  border: none;
+  border-radius: 2px;
+  padding: 0.7em 1.5em;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  -webkit-transition: -webkit-transform 100ms;
+  transition: -webkit-transform 100ms;
+  transition: transform 100ms;
+  transition: transform 100ms, -webkit-transform 100ms;
+}
+
+.btn:hover, .btn-principal:hover, .btn-secundario:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.btn-principal {
+  color: rgb(2, 1, 1);
+  background-color: gold;
+}
+
+.btn-secundario {
+  background-color: #a531af;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  border-top: 30px solid black;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+nav ul a {
+  padding: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+nav ul a:hover {
+  color: #6495ED;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.presentacion {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.presentacion .flex-item2 {
+  text-align: center;
+}
+
+.presentacion h1 {
+  margin-top: 0;
+  padding-right: 20px;
+  font-size: 3rem;
+}
+
+.presentacion p {
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.servicios div {
+  text-align: center;
+}
+
+.servicios .tipo-servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.servicios .tipo-servicios i {
+  font-size: 30px;
+}
+
+footer {
+  min-height: 80px;
+  background-color: #343533;
+  margin-top: 0;
+}
+
+footer .footer-content {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 1400px) {
+  nav, .servicios, .footer-content, .presentacion {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .presentacion, .tipo-servicios {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .presentacion div {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  nav ul {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .presentacion div {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .presentacion div h1, .presentacion div p {
+    padding: 0;
+  }
+}
+
+#separador {
+  color: gold;
+
+}
+
+#footer {
+  color: rgb(255, 255, 255);
+}
+
+#header2{
+  text-align: center;
+  justify-content: center;
+  color: gold;
+  margin-right: 50%;
+}
+
+#separator-ribbon{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+#separator-ribbon .content{
+  width: 150%;
+  height: 150;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+#separator-ribbon2{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+#separator-ribbon2 .content{
+  width: 100%;
+  height: 100;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.card-border{
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0,2s;    
+}
+
+.card-border:hover{
+  transform: scale(1.05);
+
+}
+
+#ao{
+  background:black;
+}
+
+#Calcudv{
+color: violet;
+text-decoration: underline;
+}
+
+/*Calculadora de vida*/
+
+#CalcuAo{
+  background-image: url(/img/kerpes.png);
+  background-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  color: gold;
+}
+
+/*Registro e Inicio*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}

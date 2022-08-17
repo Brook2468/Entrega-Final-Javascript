@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La Copa Argentum es la primera competencia de esports desarrollada con un juego argentino. Argentum Online, el juego multiplayer masivo que lleva más de dos décadas de historia, le regalará a su comunidad un evento deportivo sin precedentes, en el que competirán los seis mejores equipos de Argentina. El certamen comenzará el sábado 1° de mayo a las 20 hs, y la audiencia podrá seguir las partidas en vivo desde el canal oficial de Twitch de la Copa Argentum">
+    <meta name="keywords" content="COPA, ARGENTUM, AO, ESPORTS, ESPORTSAO">
+    <title>AGITE AO</title>
+    <link rel="icon" href="img/pj.png">
+    <link rel="stylesheet" href="./sass/copaao/copao.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="img/iconao.png" class="logo" alt="logoargentum" width="100" height="100"></a>
+            <h1> AGITE AO </h1>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="Calculadora de vida.html">Calculadora</a></li>
+                <li><a href="registro-login.html">Login</a></li>
+                <li><a href="argentum.html">El Sentimiento</a></li>
+            </ul>
+        </nav>            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h2>Copa Argentum 2021</h2>
+            <p>Es moneda común ver torneos de grandes videojuegos producidos en el exterior. Sin embargo, por primera vez en la historia, Argentum Online, un juego desarrollado en el país, tendrá una competencia de Esports. A partir del 1° de mayo los seis mejores equipos de la nación se enfrentarán en el MMORPG.</p> 
+                <p>El certamen será transmitido en el canal oficial de Twitch.</p>
+            <div>
+                <button class="btn-principal" type ="submit">COMUNICATE</button>
+                <button class="btn-secundario" type ="submit">Twitch</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="./img/slide3.png" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div id="separador" class="titulo-servicios">
+                <h3>Clases con mayor porcentaje de victorias </h3>
+                <p>
+                   Dejamos un listado con las clases con mas probabilidades de ganar el torneo y el link para generar el personaje con la vida correspondiente: <a href="Calculadora de vida.html" id="Calcudv">Calculadora de vida</a>
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <h4 id="Paladines">Paladines</h4>
+                    <p id="Paladines">
+                        Prefieren predicar la palabra de su Dios mediante la espada. Son seres de una gran sabiduría, más nunca comparable a la del clérigo. Aman a sus dioses y dedican su entera vida a ellos. Hay paladines realmente adinerados y otros mucho más humildes. Por lo general, llevan su rol a extremos, pudiendo ser muy benévolos o realmente malvados. Esta clase tan poderosa y sabia, logró aprender un nuevo hechizo que hace inútil a la Descarga Eléctrica, la Tormenta Eléctrica.</p>
+                </div>
+                <div>
+                    <h4 id="Druidas">Druidas</h4>
+                    <p id="Druidas">
+                        Nacen y se crían en medio de la naturaleza. Tienen un nato rechazo a la ciudad y la civilización. Respetan a cada criatura existente, a cada animal, a cada árbol; y pueden con ellos comunicarse. Siempre que un druida tenga que entrar en combate, contará con el entero apoyo y ayuda de la naturaleza.</p>
+                </div>
+                <div>
+                    <h4 id="Magos">Magos</h4>
+                    <p id="Magos">
+                        El mago es la clase mágica por excelencia. Teniendo un maná que no puede ser alcanzado por ninguna otra clase de estas tierras. Desencadenan poderosos hechizos sin descanso, su poder al combinarlos puede llegar a ser devastador, causando graves daños al oponente con muy poco esfuerzo. Esta clase es la única que puede aprender el Llamado a las sombras.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p id="footer" class="footer-content">
+            ARGENTUM AO - Copyright © - Todos los derechos reservados
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>
